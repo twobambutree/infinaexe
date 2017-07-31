@@ -1,0 +1,24 @@
+{
+    "Airspace": [
+        {"value": "A", "text": "A"},
+        {"value": "B", "text": "B"},
+        {"value": "C", "text": "C"},
+        {"value": "D", "text": "D"},
+        {"value": "E", "text": "E"}
+    ],
+    "Control Surface": [
+        {"value": "A", "text": "Airborne"},
+        {"value": "B", "text": "Ranger"},
+        {"value": "C", "text": "Airspeed"},
+        {"value": "D", "text": "Surface"},
+        {"value": "E", "text": "Takeoff"}
+    ],
+    "Deviation Types": [
+        {"value": "A", "text": "Ranger"},
+        {"value": "B", "text": "Ranger"},
+        {"value": "C", "text": "Airspeed"},
+        {"value": "D", "text": "Surface"},
+        {"value": "E", "text": "Takeoff"}
+    ]
+
+}
