@@ -10,98 +10,77 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-   <section>
-        <div id="first">
-            <!--Start page-->
-            <div class="container start-page well well-lg">
-                <div class="row text-justify">
-                    <div class="col-md-12">
-                        <h1>Parks and Recreation Super Fan Quiz</h1>
-                        <img src="http://popvinyls.com/wp-content/uploads/2017/01/pandr.jpg">
-                        <p class="lead">Will you be an underachieving subordinate or a budding Parks and Recreation Director?</p>
-                        <button class="btn btn-lg btn-default next" type="button"><a href="#" class="two">Start the Quiz</a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="second">
-            <div id="one">
-                <!--Start page-->
-                <div class="container start-page well well-lg">
-                    <div class="row text-justify">
-                        <div class="col-md-12">
-                            <h1>Parks and Recreation Super Fan Quiz</h1>
-                            <img src="http://popvinyls.com/wp-content/uploads/2017/01/pandr.jpg">
-                            <p class="lead">Will you be an underachieving subordinate or a budding Parks and Recreation Director?</p>
-                            <button class="btn btn-lg btn-default next" type="button"><a href="#" class="two">Start the Quiz</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="two">
-                <!--Question Page-->
-                <div class="container question-page well well-lg ">
-                    <div class="row text-justify">
-                        <div class="col-md-12">
-                            <h1>Parks and Recreation Super Fan Quiz</h1>
-                            <img src="http://popvinyls.com/wp-content/uploads/2017/01/pandr.jpg">
-                            <p class="lead">Name the breakout star of the Pawnee Harvest Festival?</p>
-                            <ul>
-                                <li>Mouse Rat</li>
-                                <li>li'l Sebastian</li>
-                                <li>One Paw Papa</li>
-                                <li>Just the Tip - Andy Dwyer Solo Project</li>
-                            </ul>
-                            <!--add radio dials and get rid of button -->
-                            <button class="btn btn-lg btn-default " type="button"><a href="#" class="one">Previous</a></button>
-                            <button class="btn btn-lg btn-default " type="button"><a href="#" class="three">Next</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="three">
-                <!--Feedback Page-->
-                <div class="container feedback-page well well-lg ">
-                    <div class="row text-justify">
-                        <div class="col-md-12">
-                            <h1>Parks and Recreation Super Fan Quiz</h1>
-                            <img src="http://popvinyls.com/wp-content/uploads/2017/01/pandr.jpg">
-                            <p class="lead">Name the breakout star of the Pawnee Harvest Festival?</p>
-                            <ul>
-                                <li>Mouse Rat</li>
-                                <li>Li'l Sebastian</li>
-                                <li>One Paw Papa</li>
-                                <li>Just the Tip - Andy Dwyer Solo Project</li>
-                            </ul>
-                            <p class="right lead glyphicon glyphicon-ok">Correct!</p><br/>
-                            <p class="wrong lead glyphicon glyphicon-remove">Wrong! The correct answer is Li"l Sebastian.</p><br/>
-                            <button class="btn btn-lg btn-default " type="button"><a href="#" class="two">Previous</a></button>
-                            <button class="btn btn-lg btn-primary " type="button"><a href="#" class="four">Next Question</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="four">
-                <!--Final Page-->
-                <div class="container final-page well well-lg ">
-                    <div class="row text-justify">
-                        <div class="col-md-12">
-                            <h1>Parks and Recreation Super Fan Quiz</h1>
-                            <img src="http://popvinyls.com/wp-content/uploads/2017/01/pandr.jpg">
-                            <button class="btn btn-lg btn-default " type="button"><a href="#" class="three">Previous</a></button>
-                            <button class="btn btn-lg btn-default " type="button"><a href="#" class="one">Go back to Start</a></button>
-                        </div>
-                    </div>
-                </div>
-            </div><br/><br/>
-        </div>
-    </section>
 
+
+    <!--Start page-->
+    <div id="page-1" class="container start-page well well-lg">
+        <div class="row text-justify">
+            <div class="col-md-12">
+                <h1>Parks and Recreation Super Fan Quiz</h1>
+                <img src="http://popvinyls.com/wp-content/uploads/2017/01/pandr.jpg">
+                <p class="lead">Will you be an underachieving subordinate or a budding Parks and Recreation Director?</p>
+                <button class="btn btn-lg btn-default next" type="button">Start the Quiz</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Question Page-->
+    <div id="page-2" class="container question-page well well-lg hide">
+        <div class="row text-justify">
+            <div class="col-md-12">
+                <h1>Parks and Recreation Super Fan Quiz</h1>
+                <img src="http://popvinyls.com/wp-content/uploads/2017/01/pandr.jpg">
+                <p class="lead">Name the breakout star of the Pawnee Harvest Festival?</p>
+                <ul>
+                    <li>Mouse Rat</li>
+                    <li>li'l Sebastian</li>
+                    <li>One Paw Papa</li>
+                    <li>Just the Tip - Andy Dwyer Solo Project</li>
+                </ul>
+                <!--add radio dials and get rid of button -->
+                <button class="btn btn-lg btn-default previous" type="button">Previous</button>
+                <button class="btn btn-lg btn-default next" type="button">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Feedback Page-->
+    <div id="page-3" class="container feedback-page well well-lg hide">
+        <div class="row text-justify">
+            <div class="col-md-12">
+                <h1>Parks and Recreation Super Fan Quiz</h1>
+                <img src="http://popvinyls.com/wp-content/uploads/2017/01/pandr.jpg">
+                <p class="lead">Name the breakout star of the Pawnee Harvest Festival?</p>
+                <ul>
+                    <li>Mouse Rat</li>
+                    <li>Li'l Sebastian</li>
+                    <li>One Paw Papa</li>
+                    <li>Just the Tip - Andy Dwyer Solo Project</li>
+                </ul>
+                <p class="right lead glyphicon glyphicon-ok">Correct!</p><br/>
+                <p class="wrong lead glyphicon glyphicon-remove">Wrong! The correct answer is Li"l Sebastian.</p><br/>
+                <button class="btn btn-lg btn-default previous" type="button">Previous</button>
+                <button class="btn btn-lg btn-primary next" type="button">Next Question</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Final Page-->
+    <div id="page-4" class="container final-page well well-lg hide">
+        <div class="row text-justify">
+            <div class="col-md-12">
+                <h1>Parks and Recreation Super Fan Quiz</h1>
+                <img src="http://popvinyls.com/wp-content/uploads/2017/01/pandr.jpg">
+                <button class="btn btn-lg btn-default previous" type="button">Previous</button>
+                <button class="btn btn-lg btn-default start" type="button">Go back to Start</button>
+            </div>
+        </div>
+    </div>
         <!-- jQuery (necessary for Bootstrap"s JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="js/scripts.js"></script>
-        
+
     </body>
 </html>
